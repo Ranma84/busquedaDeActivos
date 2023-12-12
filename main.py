@@ -39,3 +39,27 @@ import time
 from datetime import datetime, timedelta
 import warnings
 warnings.filterwarnings('ignore')
+
+
+# Lista para almacenar variables después de iniciar el evaluador
+
+b_out = []
+cons = []
+mcd_up = []
+mcd_up0 = []
+mcd_d = []
+mcd_d0 = []
+bb_up  = []
+already_bb_up = []
+bb_d  = []
+already_bb_d = []
+rsi_d = []
+on_rsi_d = []
+on_rsi_up = []
+rsi_up = []
+rsi_bf_d = []
+rsi_bf_up = []
+
+# Área de funciones. Cree aquí tantas funciones como sean necesarias para el evaluador. 
+# Se muestran algunos ejemplos técnicos básicos (MACD, RSI, BB) y algunas acciones de precios de Consolidación y Ruptura.
+
